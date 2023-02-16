@@ -1,0 +1,17 @@
+getgenv().RecurringPoint = "HumanoidRootPart"
+getgenv().Hitbox = "HumanoidRootPart"
+getgenv().Keybind = "c" -- lock keybind
+getgenv().AimbotStrengthAmount = 0.0421
+getgenv().PredictionAmount = 11
+getgenv().Radius = 25
+getgenv().UsePrediction = true
+getgenv().AimbotStrength = true
+getgenv().FirstPerson = true
+getgenv().ThirdPerson = true
+getgenv().TeamCheck = false
+getgenv().Enabled = true
+
+
+-- main script use with silent aim
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ChaseSYNX/Scripts/main/Streamable-Camlock"))()
